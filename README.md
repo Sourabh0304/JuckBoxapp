@@ -1,10 +1,16 @@
 # JuckBoxapp
 
+
 Comiling the code
+  cd juckbox
+  go mod tidy
   go build -o appName JuckBoxApp.go
 To run the binary:
   ./appName
 
+
+For running the test use below commond
+    go test
 Note: It will start on port 8082
 
 API:
